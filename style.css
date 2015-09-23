@@ -1,0 +1,199 @@
+/*
+  CSS file for P2 - Password Generator Form (CSCI E-15 Dynamic Web Applications)
+  Author :  Angel Raul Pulido
+  September 2015
+*/
+body
+{
+	background:#FFFF99;
+	/*background-color: #8AD9FF;*/
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:small;
+	margin:8px 0 16px;
+	text-align:center;
+} 
+
+#form_container
+{
+	background:#fff;
+	margin:0 auto;
+	text-align:left;
+	width:840px;
+	box-shadow:  7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#title
+{
+	background-color:#99CC66;
+	margin:0;
+	min-height:0;
+	padding:0;
+	text-decoration:none;
+	box-shadow:  7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+form.passwordGenerator
+{
+	margin:20px 20px 0;
+	padding:0 0 20px;
+}
+
+/**** Form Section ****/
+.passwordGenerator
+{
+	font-family:Lucida Grande, Tahoma, Arial, Verdana, sans-serif;
+	font-size:small;
+}
+.form_description
+{
+	border-bottom:1px dotted #ccc;
+	clear:both;
+	display:inline-block;
+	margin:0 0 1em;
+}
+
+.form_description h2
+{
+	clear:left;
+	font-size:160%;
+	font-weight:400;
+	margin:0 0 3px;
+}
+
+.form_description p
+{
+	font-size:95%;
+	line-height:130%;
+	margin:0 0 12px;
+}
+
+.passwordGenerator li
+{
+	width:61%;
+}
+
+form ul
+{
+	font-size:100%;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+form li
+{
+	display:block;
+	margin:0;
+	padding:4px 5px 2px 9px;
+	position:relative;
+
+}
+
+.buttons
+{
+	clear:both;
+	display:block;
+	margin-top:10px;
+}
+
+form li div
+{
+	color:#444;
+	margin:0 4px 0 0;
+	padding:0 0 8px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+/**** Buttons ****/
+input.button_text
+{
+	overflow:visible;
+	padding:0 7px;
+	width:auto;
+}
+
+.buttons input
+{
+	font-size:120%;
+	margin-right:5px;
+}
+
+/**** Inputs and Labels ****/
+.input strong {
+    position: relative;
+    left: 10px;
+    top: -26px;
+    margin-right: -30px
+	font-size:120%;
+}
+label.description
+{
+	border:none;
+	color:#222;
+	display:block;
+	font-size:95%;
+	font-weight:700;
+	line-height:150%;
+	padding:0 0 1px;
+}
+
+label.choice
+{
+	color:#444;
+	display:block;
+	font-size:100%;
+	line-height:1.4em;
+	margin:-1.55em 0 0 25px;
+	padding:4px 0 5px;
+	width:90%;
+}
+
+input.checkbox
+{
+	display:block;
+	height:13px;
+	line-height:1.4em;
+	margin:6px 0 0 3px;
+	width:13px;
+}
+
+select.small
+{
+	width:25%;
+}
+
+#password
+{
+	width:90%;
+	padding:20px 0 5px;
+}
+.result {
+    float: left;
+    width: 212px;
+}
+.options
+{
+	clear:left;
+	padding:20px 0 5px;
+}
+#newpassword
+{
+	height:34px;
+	width:710px;
+	padding:12px 10px 10px;
+	border:1px solid #999;
+	font-size:28px;
+	border-radius:4px
+	}
+.input strong
+{
+    position:relative;
+    left:10px;
+    top:-26px;
+    margin-right:-30px
+}
